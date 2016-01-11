@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACB52ECA1C43AC0700CD3CD2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB52EC91C43AC0700CD3CD2 /* AppDelegate.swift */; };
+		ACB52ECC1C43AC0700CD3CD2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB52ECB1C43AC0700CD3CD2 /* ViewController.swift */; };
+		ACB52ECF1C43AC0700CD3CD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACB52ECD1C43AC0700CD3CD2 /* Main.storyboard */; };
+		ACB52ED11C43AC0700CD3CD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACB52ED01C43AC0700CD3CD2 /* Assets.xcassets */; };
+		ACB52ED41C43AC0700CD3CD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACB52ED21C43AC0700CD3CD2 /* LaunchScreen.storyboard */; };
+		ACB52EDF1C43AC0700CD3CD2 /* Blue_or_Red_PillTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB52EDE1C43AC0700CD3CD2 /* Blue_or_Red_PillTests.swift */; };
+		ACB52EEA1C43AC0700CD3CD2 /* Blue_or_Red_PillUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB52EE91C43AC0700CD3CD2 /* Blue_or_Red_PillUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ACB52EDB1C43AC0700CD3CD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACB52EBE1C43AC0600CD3CD2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACB52EC51C43AC0600CD3CD2;
+			remoteInfo = "Blue or Red Pill";
+		};
+		ACB52EE61C43AC0700CD3CD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACB52EBE1C43AC0600CD3CD2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACB52EC51C43AC0600CD3CD2;
+			remoteInfo = "Blue or Red Pill";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ACB52EC61C43AC0700CD3CD2 /* Blue or Red Pill.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Blue or Red Pill.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACB52EC91C43AC0700CD3CD2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ACB52ECB1C43AC0700CD3CD2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ACB52ECE1C43AC0700CD3CD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ACB52ED01C43AC0700CD3CD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACB52ED31C43AC0700CD3CD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ACB52ED51C43AC0700CD3CD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACB52EDA1C43AC0700CD3CD2 /* Blue or Red PillTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Blue or Red PillTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACB52EDE1C43AC0700CD3CD2 /* Blue_or_Red_PillTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blue_or_Red_PillTests.swift; sourceTree = "<group>"; };
+		ACB52EE01C43AC0700CD3CD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACB52EE51C43AC0700CD3CD2 /* Blue or Red PillUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Blue or Red PillUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACB52EE91C43AC0700CD3CD2 /* Blue_or_Red_PillUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blue_or_Red_PillUITests.swift; sourceTree = "<group>"; };
+		ACB52EEB1C43AC0700CD3CD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACB52EC31C43AC0600CD3CD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACB52ED71C43AC0700CD3CD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACB52EE21C43AC0700CD3CD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACB52EBD1C43AC0600CD3CD2 = {
+			isa = PBXGroup;
+			children = (
+				ACB52EC81C43AC0700CD3CD2 /* Blue or Red Pill */,
+				ACB52EDD1C43AC0700CD3CD2 /* Blue or Red PillTests */,
+				ACB52EE81C43AC0700CD3CD2 /* Blue or Red PillUITests */,
+				ACB52EC71C43AC0700CD3CD2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACB52EC71C43AC0700CD3CD2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACB52EC61C43AC0700CD3CD2 /* Blue or Red Pill.app */,
+				ACB52EDA1C43AC0700CD3CD2 /* Blue or Red PillTests.xctest */,
+				ACB52EE51C43AC0700CD3CD2 /* Blue or Red PillUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACB52EC81C43AC0700CD3CD2 /* Blue or Red Pill */ = {
+			isa = PBXGroup;
+			children = (
+				ACB52EC91C43AC0700CD3CD2 /* AppDelegate.swift */,
+				ACB52ECB1C43AC0700CD3CD2 /* ViewController.swift */,
+				ACB52ECD1C43AC0700CD3CD2 /* Main.storyboard */,
+				ACB52ED01C43AC0700CD3CD2 /* Assets.xcassets */,
+				ACB52ED21C43AC0700CD3CD2 /* LaunchScreen.storyboard */,
+				ACB52ED51C43AC0700CD3CD2 /* Info.plist */,
+			);
+			path = "Blue or Red Pill";
+			sourceTree = "<group>";
+		};
+		ACB52EDD1C43AC0700CD3CD2 /* Blue or Red PillTests */ = {
+			isa = PBXGroup;
+			children = (
+				ACB52EDE1C43AC0700CD3CD2 /* Blue_or_Red_PillTests.swift */,
+				ACB52EE01C43AC0700CD3CD2 /* Info.plist */,
+			);
+			path = "Blue or Red PillTests";
+			sourceTree = "<group>";
+		};
+		ACB52EE81C43AC0700CD3CD2 /* Blue or Red PillUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ACB52EE91C43AC0700CD3CD2 /* Blue_or_Red_PillUITests.swift */,
+				ACB52EEB1C43AC0700CD3CD2 /* Info.plist */,
+			);
+			path = "Blue or Red PillUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACB52EC51C43AC0600CD3CD2 /* Blue or Red Pill */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACB52EEE1C43AC0700CD3CD2 /* Build configuration list for PBXNativeTarget "Blue or Red Pill" */;
+			buildPhases = (
+				ACB52EC21C43AC0600CD3CD2 /* Sources */,
+				ACB52EC31C43AC0600CD3CD2 /* Frameworks */,
+				ACB52EC41C43AC0600CD3CD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Blue or Red Pill";
+			productName = "Blue or Red Pill";
+			productReference = ACB52EC61C43AC0700CD3CD2 /* Blue or Red Pill.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ACB52ED91C43AC0700CD3CD2 /* Blue or Red PillTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACB52EF11C43AC0700CD3CD2 /* Build configuration list for PBXNativeTarget "Blue or Red PillTests" */;
+			buildPhases = (
+				ACB52ED61C43AC0700CD3CD2 /* Sources */,
+				ACB52ED71C43AC0700CD3CD2 /* Frameworks */,
+				ACB52ED81C43AC0700CD3CD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACB52EDC1C43AC0700CD3CD2 /* PBXTargetDependency */,
+			);
+			name = "Blue or Red PillTests";
+			productName = "Blue or Red PillTests";
+			productReference = ACB52EDA1C43AC0700CD3CD2 /* Blue or Red PillTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ACB52EE41C43AC0700CD3CD2 /* Blue or Red PillUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACB52EF41C43AC0700CD3CD2 /* Build configuration list for PBXNativeTarget "Blue or Red PillUITests" */;
+			buildPhases = (
+				ACB52EE11C43AC0700CD3CD2 /* Sources */,
+				ACB52EE21C43AC0700CD3CD2 /* Frameworks */,
+				ACB52EE31C43AC0700CD3CD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACB52EE71C43AC0700CD3CD2 /* PBXTargetDependency */,
+			);
+			name = "Blue or Red PillUITests";
+			productName = "Blue or Red PillUITests";
+			productReference = ACB52EE51C43AC0700CD3CD2 /* Blue or Red PillUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACB52EBE1C43AC0600CD3CD2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Mario;
+				TargetAttributes = {
+					ACB52EC51C43AC0600CD3CD2 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = RU39N38PNV;
+					};
+					ACB52ED91C43AC0700CD3CD2 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = RU39N38PNV;
+						TestTargetID = ACB52EC51C43AC0600CD3CD2;
+					};
+					ACB52EE41C43AC0700CD3CD2 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = RU39N38PNV;
+						TestTargetID = ACB52EC51C43AC0600CD3CD2;
+					};
+				};
+			};
+			buildConfigurationList = ACB52EC11C43AC0600CD3CD2 /* Build configuration list for PBXProject "Blue or Red Pill" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACB52EBD1C43AC0600CD3CD2;
+			productRefGroup = ACB52EC71C43AC0700CD3CD2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACB52EC51C43AC0600CD3CD2 /* Blue or Red Pill */,
+				ACB52ED91C43AC0700CD3CD2 /* Blue or Red PillTests */,
+				ACB52EE41C43AC0700CD3CD2 /* Blue or Red PillUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACB52EC41C43AC0600CD3CD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACB52ED41C43AC0700CD3CD2 /* LaunchScreen.storyboard in Resources */,
+				ACB52ED11C43AC0700CD3CD2 /* Assets.xcassets in Resources */,
+				ACB52ECF1C43AC0700CD3CD2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACB52ED81C43AC0700CD3CD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACB52EE31C43AC0700CD3CD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACB52EC21C43AC0600CD3CD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACB52ECC1C43AC0700CD3CD2 /* ViewController.swift in Sources */,
+				ACB52ECA1C43AC0700CD3CD2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACB52ED61C43AC0700CD3CD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACB52EDF1C43AC0700CD3CD2 /* Blue_or_Red_PillTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACB52EE11C43AC0700CD3CD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACB52EEA1C43AC0700CD3CD2 /* Blue_or_Red_PillUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACB52EDC1C43AC0700CD3CD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACB52EC51C43AC0600CD3CD2 /* Blue or Red Pill */;
+			targetProxy = ACB52EDB1C43AC0700CD3CD2 /* PBXContainerItemProxy */;
+		};
+		ACB52EE71C43AC0700CD3CD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACB52EC51C43AC0600CD3CD2 /* Blue or Red Pill */;
+			targetProxy = ACB52EE61C43AC0700CD3CD2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ACB52ECD1C43AC0700CD3CD2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACB52ECE1C43AC0700CD3CD2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ACB52ED21C43AC0700CD3CD2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACB52ED31C43AC0700CD3CD2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACB52EEC1C43AC0700CD3CD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ACB52EED1C43AC0700CD3CD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACB52EEF1C43AC0700CD3CD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Blue or Red Pill/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mario.Blue-or-Red-Pill";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ACB52EF01C43AC0700CD3CD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Blue or Red Pill/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mario.Blue-or-Red-Pill";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ACB52EF21C43AC0700CD3CD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Blue or Red PillTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mario.Blue-or-Red-PillTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Blue or Red Pill.app/Blue or Red Pill";
+			};
+			name = Debug;
+		};
+		ACB52EF31C43AC0700CD3CD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Blue or Red PillTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mario.Blue-or-Red-PillTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Blue or Red Pill.app/Blue or Red Pill";
+			};
+			name = Release;
+		};
+		ACB52EF51C43AC0700CD3CD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Blue or Red PillUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mario.Blue-or-Red-PillUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Blue or Red Pill";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		ACB52EF61C43AC0700CD3CD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Blue or Red PillUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mario.Blue-or-Red-PillUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Blue or Red Pill";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACB52EC11C43AC0600CD3CD2 /* Build configuration list for PBXProject "Blue or Red Pill" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACB52EEC1C43AC0700CD3CD2 /* Debug */,
+				ACB52EED1C43AC0700CD3CD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACB52EEE1C43AC0700CD3CD2 /* Build configuration list for PBXNativeTarget "Blue or Red Pill" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACB52EEF1C43AC0700CD3CD2 /* Debug */,
+				ACB52EF01C43AC0700CD3CD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ACB52EF11C43AC0700CD3CD2 /* Build configuration list for PBXNativeTarget "Blue or Red PillTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACB52EF21C43AC0700CD3CD2 /* Debug */,
+				ACB52EF31C43AC0700CD3CD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ACB52EF41C43AC0700CD3CD2 /* Build configuration list for PBXNativeTarget "Blue or Red PillUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACB52EF51C43AC0700CD3CD2 /* Debug */,
+				ACB52EF61C43AC0700CD3CD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACB52EBE1C43AC0600CD3CD2 /* Project object */;
+}
